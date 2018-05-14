@@ -16,23 +16,27 @@ public class TicketsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_tickets);
 
 
-        TextView ticketsBtn = (TextView)findViewById(R.id.ticketsBtn);
-        ticketsBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
 
-                String google = "http://www.google.com";
-
-                Uri webaddress = Uri.parse(google);
-
-                Intent gotoGoogle = new Intent(Intent.ACTION_VIEW, webaddress);
-
-                if (gotoGoogle.resolveActivity(getPackageManager()) !=null) {
-                    startActivity(gotoGoogle);
-                }
-
-            }
-        });
 
     }
 }
+
+
+//Button to press for redirect to google
+    //TextView ticketsBtn = (TextView)findViewById(R.id.ticketsBtn);
+    //ticketsBtn.setOnClickListener(new View.OnClickListener() {
+    //@Override
+    //public void onClick(View v) {
+
+    //String google = "http://www.google.com";
+
+    //Uri webaddress = Uri.parse(google);
+
+//Intent gotoGoogle = new Intent(Intent.ACTION_VIEW, webaddress);
+
+    //if (gotoGoogle.resolveActivity(getPackageManager()) !=null) {
+//startActivity(gotoGoogle);
+// }
+
+// }
+// });

@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">wine_app</string>
     <string name="title">Breckenridge Wine Festival</string>
-    <string name="contains_links">Buy tickets to this event <a href="http://www.google.com" target="_top">click here</a></string>
+    <string name="ticket_link">Tickets <a href="http://www.yahoo.com"></a></string>
+    <string name="contains_links">Map <a href="http://www.google.com"></a></string>
 </resources>
+
+
 

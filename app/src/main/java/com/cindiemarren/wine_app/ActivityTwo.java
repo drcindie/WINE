@@ -34,7 +34,7 @@ public class ActivityTwo extends AppCompatActivity {
             }
         });
         //end of onclick button here---------------
-        //none
+
 
 
 
