@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/cantarell</item>
+        <item>@font/cinzel</item>
+        <item>@font/lato</item>
+        <item>@font/lato_bold</item>
+        <item>@font/lato_thin</item>
+        <item>@font/marcellus_sc</item>
+        <item>@font/scope_one</item>
+        <item>@font/space_mono</item>
+        <item>@font/tenor_sans</item>
+        <item>@font/ubuntu_light</item>
+        <item>@font/voltaire</item>
+    </array>
+</resources>
