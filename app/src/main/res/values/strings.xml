@@ -6,6 +6,9 @@
     <string name="Favorites">Favorties</string>
     <string name="Map">Map</string>
     <string name="Wine">Wines</string>
+    <string name="FAQ">FAQ</string>
+    <string name="Events">Events</string>
+    <string name="events">Events</string>
 </resources>
 
 
