@@ -3,6 +3,9 @@
     <string name="title">Breckenridge Wine Festival</string>
     <string name="ticket_link">Tickets <a href="http://www.yahoo.com"></a></string>
     <string name="contains_links">Map <a href="http://www.google.com"></a></string>
+    <string name="Favorites">Favorties</string>
+    <string name="Map">Map</string>
+    <string name="Wine">Wines</string>
 </resources>
 
 
