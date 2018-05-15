@@ -5,11 +5,12 @@
     <string name="contains_links">Map <a href="http://www.google.com"></a></string>
     <string name="Favorites">Favorties</string>
     <string name="Map">Map</string>
-    <string name="Wine">Wines</string>
     <string name="FAQ">FAQ</string>
+    <string name="Wine">Wine</string>
     <string name="Events">Events</string>
     <string name="events">Events</string>
     <string name="winelist">Full Wine List</string>
+    <string name="result_text_default">Please focus camera on QR Code</string>
 </resources>
 
 

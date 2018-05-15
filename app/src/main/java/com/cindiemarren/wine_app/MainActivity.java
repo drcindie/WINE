@@ -41,10 +41,11 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
 
-                    if (finalI == 0) //open Wine activity
+                    if (finalI == 0) //open Wine Scanner activity
                     {
-                        Intent intent = new Intent(MainActivity.this, WineActivity.class);
+                        Intent intent = new Intent(MainActivity.this, QRscanner.class);
                         startActivity(intent);
+                        //WineActivity.class
 
                     } else if (finalI == 1) //open tickets activity
                     {
@@ -75,6 +76,7 @@ public class MainActivity extends AppCompatActivity {
                     {
                         Intent intent = new Intent(MainActivity.this, EventsActivity.class);
                         startActivity(intent);
+
                     } else if (finalI == 3) //open Map activity
                     {
 
@@ -84,11 +86,8 @@ public class MainActivity extends AppCompatActivity {
                             public void onClick(View v) {
 
                                 String google = "http://www.google.com";
-
                                 Uri webaddress = Uri.parse(google);
-
                                 Intent gotoGoogle = new Intent(Intent.ACTION_VIEW, webaddress);
-
                                 if (gotoGoogle.resolveActivity(getPackageManager()) !=null) {
                                     startActivity(gotoGoogle);
                                 }
@@ -104,10 +103,12 @@ public class MainActivity extends AppCompatActivity {
                     {
                         Intent intent = new Intent(MainActivity.this, FavoritesActivity.class);
                         startActivity(intent);
+
                     } else if (finalI == 5) //open FAQ activity
                     {
                         Intent intent = new Intent(MainActivity.this, FaqActivity.class);
                         startActivity(intent);
+
                     } else {
                         Toast.makeText(MainActivity.this, "Please set activity for this card item ", Toast.LENGTH_SHORT).show();
 

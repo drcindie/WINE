@@ -16,9 +16,9 @@ public class WineActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_wine);
+        setContentView(R.layout.activity_qrscanner);
 
-
+        //// end here
                 wineGrid = (GridLayout) findViewById(R.id.wineGrid);
 
                 //Set Event
