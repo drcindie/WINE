@@ -9,6 +9,7 @@
         android:orderInCategory="100"
         android:title="Search..."
         app:showAsAction="always"
+
         />
 
 </menu>
