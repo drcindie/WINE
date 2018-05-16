@@ -3,11 +3,11 @@ package com.cindiemarren.wine_app;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class OtherActivity extends AppCompatActivity {
+public class QRcodescanner extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_other);
+        setContentView(R.layout.activity_qrcodescanner);
     }
 }

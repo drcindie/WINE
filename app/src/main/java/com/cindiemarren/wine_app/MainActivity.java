@@ -41,15 +41,15 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
 
-                    if (finalI == 0) //open Wine Scanner activity
+                    if (finalI == 0) //open Wine activity
                     {
-                        Intent intent = new Intent(MainActivity.this, QRscanner.class);
+                        Intent intent = new Intent(MainActivity.this, WineActivity.class);
                         startActivity(intent);
-                        //WineActivity.class
+
+
 
                     } else if (finalI == 1) //open tickets activity
                     {
-
 
                         TextView mapBtn = (TextView)findViewById(R.id.ticketsBtn);
                         mapBtn.setOnClickListener(new View.OnClickListener() {
@@ -72,12 +72,12 @@ public class MainActivity extends AppCompatActivity {
                         //startActivity(intent);
 
 
-                    } else if (finalI == 2) //open Events activity
+                    } else if (finalI == 2) //open EVENTS ACTIVITY
                     {
                         Intent intent = new Intent(MainActivity.this, EventsActivity.class);
                         startActivity(intent);
 
-                    } else if (finalI == 3) //open Map activity
+                    } else if (finalI == 3) //open MAP ACTIVITY
                     {
 
                         TextView mapBtn = (TextView)findViewById(R.id.mapBtn);
@@ -96,18 +96,19 @@ public class MainActivity extends AppCompatActivity {
                         });
 
 
-
-                        //Intent intent = new Intent(MainActivity.this, MapActivity.class);
-                        //startActivity(intent);
                     } else if (finalI == 4) //open Favorites activity
                     {
                         Intent intent = new Intent(MainActivity.this, FavoritesActivity.class);
                         startActivity(intent);
 
+
+
                     } else if (finalI == 5) //open FAQ activity
                     {
                         Intent intent = new Intent(MainActivity.this, FaqActivity.class);
                         startActivity(intent);
+
+
 
                     } else {
                         Toast.makeText(MainActivity.this, "Please set activity for this card item ", Toast.LENGTH_SHORT).show();

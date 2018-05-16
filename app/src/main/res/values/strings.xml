@@ -11,6 +11,7 @@
     <string name="events">Events</string>
     <string name="winelist">Full Wine List</string>
     <string name="result_text_default">Please focus camera on QR Code</string>
+    <string name="search_view">search_view</string>
 </resources>
 
 

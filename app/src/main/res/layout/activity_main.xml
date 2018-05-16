@@ -74,7 +74,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/cinzel"
-                    android:text="Scan Wine"
+                    android:text="Wine"
                     android:padding="15dp"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"

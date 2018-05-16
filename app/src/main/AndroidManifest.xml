@@ -2,11 +2,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.cindiemarren.wine_app">
 
-    <uses-permission android:name="android.permission.CAMERA"/>
-    <uses-permission android:name="android.permission.VIBRATE"/>
     <uses-sdk
         android:minSdkVersion="14"
         android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -22,8 +26,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
         <activity android:name=".WineActivity" />
         <activity android:name=".FavoritesActivity" />
         <activity android:name=".MapActivity" />
@@ -40,12 +42,13 @@
         <activity android:name=".RedActivity" />
         <activity android:name=".SparklingActivity" />
         <activity android:name=".OtherActivity" />
-        <activity android:name=".QRscanner"></activity>
+        <activity android:name=".QRscanner" />
 
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="barcode" />
 
-        <meta-data android:name="com.google.android.gms.vision.DEPENDENCIES" android:value="barcode"/>
-
-
+        <activity android:name=".QRcodescanner"></activity>
     </application>
 
 </manifest>

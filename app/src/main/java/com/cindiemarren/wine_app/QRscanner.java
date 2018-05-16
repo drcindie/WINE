@@ -2,6 +2,7 @@ package com.cindiemarren.wine_app;
 
 import android.Manifest;
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.VibrationEffect;
 import android.os.Vibrator;
@@ -9,9 +10,12 @@ import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.CardView;
 import android.util.SparseArray;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
+import android.view.View;
+import android.widget.GridLayout;
 import android.widget.TextView;
 
 import com.google.android.gms.vision.CameraSource;
@@ -113,10 +117,13 @@ public class QRscanner extends AppCompatActivity {
                         @Override
                         public void run() {
                             //create vibrate
-                            Vibrator vibrator = (Vibrator)getApplicationContext().getSystemService(Context.VIBRATOR_SERVICE);
-                            vibrator.vibrate(1000);
+                            Vibrator vibrator = (Vibrator) getApplicationContext().getSystemService(Context.VIBRATOR_SERVICE);
+                            assert vibrator != null;
+                            vibrator.vibrate(100);
                             txtResult.setText(qrcodes.valueAt(0).displayValue);
                         }
+
+
                     });
                 }
             }

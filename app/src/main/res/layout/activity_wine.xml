@@ -205,7 +205,7 @@
                     android:id="@+id/wineBtnother"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Other Wine"
+                    android:text="Scan"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="20sp"

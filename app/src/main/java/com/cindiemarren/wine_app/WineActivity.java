@@ -16,7 +16,7 @@ public class WineActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_qrscanner);
+        setContentView(R.layout.activity_wine);
 
         //// end here
                 wineGrid = (GridLayout) findViewById(R.id.wineGrid);
@@ -53,7 +53,7 @@ public class WineActivity extends AppCompatActivity {
                                 startActivity(intent);
                             } else if (finalI == 3) //open other activity
                             {
-                                Intent intent = new Intent(com.cindiemarren.wine_app.WineActivity.this, OtherActivity.class);
+                                Intent intent = new Intent(com.cindiemarren.wine_app.WineActivity.this, QRscanner.class);
                                 startActivity(intent);
                             }
 
