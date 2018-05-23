@@ -40,15 +40,13 @@
 
         <activity android:name=".WhiteActivity" />
         <activity android:name=".RedActivity" />
-        <activity android:name=".SparklingActivity" />
-        <activity android:name=".OtherActivity" />
+        <activity android:name=".OtherListActivity" />
         <activity android:name=".QRscanner" />
 
         <meta-data
             android:name="com.google.android.gms.vision.DEPENDENCIES"
             android:value="barcode" />
 
-        <activity android:name=".QRcodescanner"></activity>
     </application>
 
 </manifest>

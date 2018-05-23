@@ -9,6 +9,8 @@ import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.TextView;
 
+import com.github.chrisbanes.photoview.PhotoView;
+
 public class MapActivity extends AppCompatActivity {
 
     @Override
@@ -16,7 +18,8 @@ public class MapActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map);
 
-
+        PhotoView photoView = (PhotoView)findViewById(R.id.photo_view);
+        photoView.setImageResource(R.drawable.breck_map);
     }
 }
 

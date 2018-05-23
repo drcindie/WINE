@@ -1,6 +1,5 @@
 package com.cindiemarren.wine_app;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -49,7 +48,7 @@ public class WineActivity extends AppCompatActivity {
 
                             } else if (finalI == 2) //open sparkling activity
                             {
-                                Intent intent = new Intent(com.cindiemarren.wine_app.WineActivity.this, SparklingActivity.class);
+                                Intent intent = new Intent(com.cindiemarren.wine_app.WineActivity.this, OtherListActivity.class);
                                 startActivity(intent);
                             } else if (finalI == 3) //open other activity
                             {

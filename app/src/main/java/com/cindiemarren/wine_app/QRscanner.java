@@ -1,6 +1,7 @@
 package com.cindiemarren.wine_app;
 
 import android.Manifest;
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -119,8 +120,12 @@ public class QRscanner extends AppCompatActivity {
                             //create vibrate
                             Vibrator vibrator = (Vibrator) getApplicationContext().getSystemService(Context.VIBRATOR_SERVICE);
                             assert vibrator != null;
-                            vibrator.vibrate(100);
+                            vibrator.vibrate(5);
                             txtResult.setText(qrcodes.valueAt(0).displayValue);
+
+                            //TO ROUTE TO FAVORITES: BUT IT CAN NOT LEAVE FROM FAVORITES!!
+                            //Intent intent = new Intent(QRscanner.this, FavoritesActivity.class);
+                            //startActivity(intent);
                         }
 
 

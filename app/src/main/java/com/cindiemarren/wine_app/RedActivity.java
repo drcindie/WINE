@@ -11,8 +11,7 @@ import android.widget.ListView;
 
 import com.miguelcatalan.materialsearchview.MaterialSearchView;
 
-import java.util.ArrayList;
-import java.util.List;
+// MALFUNCTIONING SEARCH BAR //
 
 public class RedActivity extends AppCompatActivity {
     MaterialSearchView searchView;
@@ -38,7 +37,7 @@ public class RedActivity extends AppCompatActivity {
             "eleven",
             "twelve"
     };
-//----------------ENDED VIDEO AT 14:38-------------------
+//--Malfunction with search code---------ENDED VIDEO AT 14:38-------------------
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

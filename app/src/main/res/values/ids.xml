@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <item name="wine_image" type="id">wine_image</item>
+    <item name="breckMapView" type="id">breckMapView</item>
+    <item name="textViewWine" type="id">textViewWine</item>
 </resources>
